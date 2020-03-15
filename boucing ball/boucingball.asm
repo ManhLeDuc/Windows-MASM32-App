@@ -1,5 +1,6 @@
-
-
+; build with follow commands:
+;d:/masm32/bin/ml /c /Cp /coff boucingball.asm 
+;d:/masm32/bin/Link /subsystem:windows boucingball.obj
 
 .386
 .model flat,stdcall
