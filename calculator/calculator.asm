@@ -22,7 +22,7 @@ includelib D:\masm32\lib\gdi32.lib
     ClassName db 'BasicWinClass', 0
     ButtonClassName db 'Button', 0
     BoxClassName db 'Edit', 0
-    Error_Message db 'Are you dump???', 0
+    Error_Message db 'Error!!!', 0
 
     ButtonName0 db '0', 0
     ButtonName1 db '1', 0
@@ -2106,7 +2106,6 @@ reverseLoop:
     dec edi
     jmp reverseLoop
 
-    ; show string reversed to second edit window
 reverse_done:
     pop ebp
     ret 2*4
